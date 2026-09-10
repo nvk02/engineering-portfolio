@@ -1,32 +1,29 @@
 # Nisha V. Kumar — Aerospace Engineering Portfolio
 
-Static, dependency-free portfolio website designed for GitHub Pages.
+Static GitHub Pages website.
 
-## Publish with GitHub Pages
+## Update the existing GitHub repository
 
-1. Create a new GitHub repository (for example, `engineering-portfolio`).
-2. Upload the contents of this folder to the repository root.
-3. In GitHub, open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)` folder, then save.
-6. GitHub will provide the public website URL after deployment.
+The website is intentionally flat so every required file can sit in the repository root.
 
-## Local preview
+Upload/replace these files in the root of `engineering-portfolio`:
 
-From this folder, run:
+- `index.html`
+- `styles.css`
+- `Nisha V Kumar - Resume.pdf`
+- `NVK Technical Portfolio.pdf`
+- `ge-cryogenic-system.png`
+- `gdil-isolator-model.png`
+- `honeywell-engine-performance.png`
+- `bsli-launch-operations.png`
+- `.nojekyll`
 
-```bash
-python -m http.server 8000
-```
+GitHub Pages will automatically redeploy after the commit.
 
-Then open `http://localhost:8000`.
+## Editing wording
 
-## Files
+Open `index.html` in GitHub and click the pencil icon. Text can be edited between HTML tags without changing the surrounding tags.
 
-- `index.html` — page content
-- `styles.css` — all website styling
-- `assets/Nisha_Kumar_Resume.pdf` — downloadable resume
-- `assets/Nisha_Kumar_Technical_Portfolio.pdf` — downloadable detailed portfolio
-- `assets/images/` — project visuals and background assets
+## Replacing resume or portfolio
 
-No analytics, trackers, external fonts, or third-party JavaScript are included.
+Keep the exact filenames above when replacing the PDFs so the website links continue to work automatically.
